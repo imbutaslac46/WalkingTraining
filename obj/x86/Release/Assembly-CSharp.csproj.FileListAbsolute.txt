@@ -1,0 +1,2 @@
+C:\Users\Michele\Desktop\Body Visualization System\BodyVisualizationHololens\obj\x86\Release\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\Michele\Desktop\Body Visualization System\BodyVisualizationHololens\obj\x86\Release\Assembly-CSharp.csproj.CoreCompileInputs.cache

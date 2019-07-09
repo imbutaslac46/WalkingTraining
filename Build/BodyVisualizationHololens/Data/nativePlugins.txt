@@ -1,0 +1,9 @@
+PlaneFinding.dll
+VuforiaDL.dll
+MicStreamSelector.dll
+GpuTiming.dll
+SharingClient.dll
+VuforiaWrapper.dll
+SpatialUnderstanding.dll
+Vuforia.dll
+HolographicStreamerDesktop.dll
