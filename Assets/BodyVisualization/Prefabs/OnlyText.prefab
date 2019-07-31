@@ -230,11 +230,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barObject: {fileID: 1053540103974312}
   valueText: {fileID: 114727947739711160}
-  units: "\xB0C"
+  units: kg
   min: 0
   max: 50
   value: 0
-  showOnZero: 0
+  showOnZero: 1
 --- !u!222 &222669704951349368
 CanvasRenderer:
   m_ObjectHideFlags: 1

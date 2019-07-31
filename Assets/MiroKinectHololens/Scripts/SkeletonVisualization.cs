@@ -11,7 +11,9 @@ using Kinect = Windows.Kinect;
 public class SkeletonVisualization : MonoBehaviour, IHideable
 {
     public Material jointMaterial;
-    public Material boneMaterial;
+    public Material boneMaterialRed;
+    public Material boneMaterialYellow;
+    public Material boneMaterialGreen;
 
     public float jointDiameter = 0.06f;
     public float boneDiameter = 0.04f;
@@ -124,6 +126,32 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
         }
     }
 
+    public void SetBoneColorFromAngle( Kinect.JointType joint, float theta)
+    {
+        Kinect.JointType parentJoint = m_jointParents[joint];
+        if (parentJoint != joint)
+        {
+            string boneName = GetBoneName(parentJoint, joint);
+
+            if (m_boneGameObjects.ContainsKey(boneName) && theta <= 60)
+            {
+                GameObject boneObj = m_boneGameObjects[boneName];
+                boneObj.GetComponent<Renderer>().sharedMaterial = boneMaterialRed;
+            }
+            else if (m_boneGameObjects.ContainsKey(boneName) && theta > 60 && theta <= 90)
+            {
+                GameObject boneObj = m_boneGameObjects[boneName];
+                boneObj.GetComponent<Renderer>().sharedMaterial = boneMaterialYellow;
+            }
+            else if (m_boneGameObjects.ContainsKey(boneName) && theta > 90 && theta <= 120)
+            {
+                GameObject boneObj = m_boneGameObjects[boneName];
+                boneObj.GetComponent<Renderer>().sharedMaterial = boneMaterialGreen;
+            }
+        }
+    }
+
+
     public Vector3 GetJointWorldPosition(Kinect.JointType jointType)
     {
         Vector3 ret = Vector3.zero;
@@ -165,7 +193,6 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
         m_bodyGameObject = new GameObject("Body");
         m_bodyGameObject.transform.SetParent(this.transform, false);
         m_bodyGameObject.transform.localPosition = Vector3.zero;
-        //m_bodyGameObject.GetComponent<IHideable>().Visible = false;
 
         foreach ( Kinect.JointType childJoint in m_jointParents.Keys )
         {
@@ -226,7 +253,7 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
         ret.transform.localScale = new Vector3(boneDiameter, 0.0f, boneDiameter);
         ret.transform.localPosition = Vector3.zero;
         ret.name = GetBoneName(jointA, jointB);
-        ret.GetComponent<Renderer>().sharedMaterial = boneMaterial;
+        ret.GetComponent<Renderer>().sharedMaterial = boneMaterialGreen;
 
         // Just so that the bones don't add into physics checking
         Destroy(ret.GetComponent<Collider>());

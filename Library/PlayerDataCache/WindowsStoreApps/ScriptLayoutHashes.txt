@@ -379,7 +379,7 @@ d88743fd8df1c505d8b6f35fb6b873b6 Assembly-CSharp.dll:HoloToolkit.UX.Progress.Pro
 779e97e16660be39d6d758da78e9d02e Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.HandGuidance
 e8069624fa39554fc3053f8419f84c44 Assembly-CSharp.dll:HoloToolkit.Unity.StabilizationPlaneModifier
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:HoloToolkit.Unity.CalibrationSpace
-e4587cc4a0ecd84c59a4da853cb77dde Assembly-CSharp.dll:.SkeletonVisualization
+8193d0207c9ea50318db4c21682eada6 Assembly-CSharp.dll:.SkeletonVisualization
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Tests.GazeResponder
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:HoloToolkit.Unity.SharingWithUNET.JoinSelectedSessionButton
 8ccbbf7b0df912bedd243b10fd079eb0 Assembly-CSharp.dll:HoloToolkit.Examples.InteractiveElements.GestureControlTest
@@ -405,8 +405,9 @@ f6313b4d294cadc7778340793e9a86e1 Assembly-CSharp.dll:HoloToolkit.Unity.InputModu
 bd665be4119eea496d5d39d2cfed1d5f Assembly-CSharp.dll:HoloToolkit.Sharing.Tests.SyncObjectSpawner
 d320e6cc8077fa7f43babe2627fb93fa Assembly-CSharp.dll:HoloToolkit.Unity.UX.Duplicator
 fe32da12764c016cc204adcfcdc7a6cc Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Examples.Grabbables.DuplicateAfterThrow
+02a7ee61afa4d3bd1e1a81a4b872e5a7 Assembly-CSharp.dll:.BarGraph3DBig
 26d69abc381cdc9cdf9f3abb12ae3fba Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonTextProfile
-7282da38df4df93d0c10e4609b26c1ff Assembly-CSharp.dll:.AppManager
+8f760ddf1ce1c269ae91c8615ef525c4 Assembly-CSharp.dll:.AppManager
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.SetGlobalListener
 255d344333a46415df9c1f42463cfbb2 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Examples.Grabbables.ThrowableObject
 7f496f1b644991fd15e9760e224f6bcc Assembly-CSharp.dll:.AdaptiveQualityExample
@@ -520,6 +521,7 @@ bc5498531857dacd3d952256573e51d2 Assembly-CSharp.dll:RotaryHeart.Lib.Serializabl
 c018aa57240b78803ab8f1fc45c042e4 Assembly-CSharp.dll:HoloToolkit.Unity.DebugPanelControllerInfo
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:HoloToolkit.Unity.ApplicationViewManager
 e08d12d44df444f1f881a4672d667b63 Assembly-CSharp.dll:HoloToolkit.Unity.SolverHandler
+a9709d9e4b0e340268fe6d2d3244d9be Assembly-CSharp.dll:.SkeletonManager
 b1dcddbdbf3c1b1552c44daeec0a85a8 Assembly-CSharp.dll:HoloToolkit.Unity.UX.DistorterSphere
 2c3b6aacc9790281db51f7c6f623a0db Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.SpeechInputHandler
 7ad6568e913656139686286340bc3b0d Assembly-CSharp.dll:HoloToolkit.Unity.SpatialMapping.RemoteMeshSource

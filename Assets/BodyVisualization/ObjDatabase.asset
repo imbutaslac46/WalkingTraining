@@ -36,31 +36,43 @@ MonoBehaviour:
     isExpanded: 1
     _keyValues:
     - BarGraph
+    - BarGraphBig
+    - Cylinder
+    - CylinderBig
+    - Arrow
+    - ArrowBig
+    - Text
+    - TextBig
+    - TransparentBar
+    - JointAnglesVisualization
     - HeartRateVisualization
     - PanelBody
-    - Arrow
-    - Cylinder
-    - Text
-    - JointAnglesVisualization
     - PanelForcesType1
-    - TransparentBar
     _keys:
     - BarGraph
+    - BarGraphBig
+    - Cylinder
+    - CylinderBig
+    - Arrow
+    - ArrowBig
+    - Text
+    - TextBig
+    - TransparentBar
+    - JointAnglesVisualization
     - HeartRateVisualization
     - PanelBody
-    - Arrow
-    - Cylinder
-    - Text
-    - JointAnglesVisualization
     - PanelForcesType1
-    - TransparentBar
     _values:
     - {fileID: 1422597020207958, guid: 3e9cb64aa01142243be6238729784980, type: 2}
+    - {fileID: 1422597020207958, guid: 17c0d235fad48934ebb257a8fd8bb0e9, type: 2}
+    - {fileID: 1195748072935940, guid: 9fb7ac3ba3e772a40ac6ab416f1fc16a, type: 2}
+    - {fileID: 1195748072935940, guid: 4991f0332c91f4746bfd4ee22df06950, type: 2}
+    - {fileID: 1766389610388868, guid: 667fa375e9d08144fa5205156fbd1193, type: 2}
+    - {fileID: 1766389610388868, guid: 667fa375e9d08144fa5205156fbd1193, type: 2}
+    - {fileID: 1020476113665882, guid: b924a746944d7514eaf4503108fb1987, type: 2}
+    - {fileID: 1020476113665882, guid: b924a746944d7514eaf4503108fb1987, type: 2}
+    - {fileID: 1992966247012128, guid: 129a9c60b46e6c343a8e03093709c63a, type: 2}
+    - {fileID: 1154466614380962, guid: fd793400de82bf84292eafb49ea0263f, type: 2}
     - {fileID: 1166041444690150, guid: a192a3b4ae7fc824695caa048216413d, type: 2}
     - {fileID: 1474349677643034, guid: 3bde25633c4f8b94f9a56a9e74cfbc0f, type: 2}
-    - {fileID: 1766389610388868, guid: 667fa375e9d08144fa5205156fbd1193, type: 2}
-    - {fileID: 1195748072935940, guid: 9fb7ac3ba3e772a40ac6ab416f1fc16a, type: 2}
-    - {fileID: 1020476113665882, guid: b924a746944d7514eaf4503108fb1987, type: 2}
-    - {fileID: 1154466614380962, guid: fd793400de82bf84292eafb49ea0263f, type: 2}
     - {fileID: 1197987723420548, guid: 6d0738e3d5b28fd4b8281b640f51e86d, type: 2}
-    - {fileID: 1992966247012128, guid: 129a9c60b46e6c343a8e03093709c63a, type: 2}

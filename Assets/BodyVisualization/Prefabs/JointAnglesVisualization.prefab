@@ -53,3 +53,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPrefab: {fileID: 1985345704132614, guid: 6266054f12d74f7409030caf9140f69d,
     type: 2}
+  baseClient: {fileID: 0}

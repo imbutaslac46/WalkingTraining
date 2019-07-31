@@ -11,7 +11,7 @@
     <UseEmulator>true</UseEmulator>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
-    <RemoteDebugMachine>163.221.127.140</RemoteDebugMachine>
+    <RemoteDebugMachine>163.221.125.56</RemoteDebugMachine>
     <AuthenticationMode>Universal</AuthenticationMode>
     <RemoteDebugEnabled>true</RemoteDebugEnabled>
   </PropertyGroup>

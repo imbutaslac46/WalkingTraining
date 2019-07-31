@@ -237,10 +237,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jointMaterial: {fileID: 2100000, guid: ab4e0564829deb54983c806b147c9400, type: 2}
-  boneMaterial: {fileID: 2100000, guid: 71451fde0d0cd6e45b71bb0d059fc2ed, type: 2}
+  boneMaterialRed: {fileID: 2100000, guid: 71451fde0d0cd6e45b71bb0d059fc2ed, type: 2}
+  boneMaterialYellow: {fileID: 2100000, guid: 1a1efacf43ddcd54cad1b4e58b51d74c, type: 2}
+  boneMaterialGreen: {fileID: 2100000, guid: 5a18f051448a1a24abc1258348ec7052, type: 2}
   jointDiameter: 0.03
   boneDiameter: 0.01
-  skeletonProvider: {fileID: 46894384}
 --- !u!1 &212943295
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +477,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &354090019
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 'stonesMaterial
+
+    24234'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: d31a414f141c4fab99154c859917aeff, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &389347338
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,8 +533,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseClient: {fileID: 1651870627}
-  skeletonProvider: {fileID: 46894384}
-  skeletonVisualization: {fileID: 84394480}
   objManager: {fileID: 820748221}
   calibrationManager: {fileID: 1195262213}
 --- !u!4 &389347340
@@ -565,12 +591,12 @@ MonoBehaviour:
       time: []
     storage: 000000000000000000000000000000000000000000000000000000000000000000000000
   chairSensors: []
---- !u!43 &435165215
+--- !u!43 &556146903
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ImageTargetMesh24038
+  m_Name: ImageTargetMesh24232
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -824,33 +850,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -72}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 1, y: 1}
---- !u!21 &819491401
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: 'stonesMaterial
-
-    24040'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: d31a414f141c4fab99154c859917aeff, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &820748220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1598,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1537169234}
-  m_Mesh: {fileID: 435165215}
+  m_Mesh: {fileID: 556146903}
 --- !u!23 &1537169237
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1615,7 +1614,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 819491401}
+  - {fileID: 354090019}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1739,7 +1738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504128022f7e7a04dbcad8fa8ba790bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brokerAddress: 163.221.125.42
+  brokerAddress: 163.221.127.37
   brokerPort: 8000
   isEncrypted: 0
   connectionDelay: 500
@@ -1881,3 +1880,47 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2ed75ffdf9031c94e8bce4b3d17b9928, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &1996803379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996803381}
+  - component: {fileID: 1996803380}
+  m_Layer: 0
+  m_Name: SkeletonManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1996803380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996803379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d489b9fb39d800a4c80a00e0ce17ea6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseClient: {fileID: 1651870627}
+  skeletonProvider: {fileID: 46894384}
+  skeletonVisualization: {fileID: 84394480}
+  ElbowLeftFlag: 0
+--- !u!4 &1996803381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1996803379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

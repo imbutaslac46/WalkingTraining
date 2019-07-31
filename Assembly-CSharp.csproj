@@ -75,9 +75,11 @@
     <Compile Include="Assets\BodyVisualization\Scripts\ObjManager.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\OffsetFromAnchorTowardsCamera.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\PanelButtonReceiver.cs" />
+    <Compile Include="Assets\BodyVisualization\Scripts\SkeletonManager.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\SmartexMqttHandler.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\Visualizations\AbstractVisualization.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\Visualizations\BarGraph3D.cs" />
+    <Compile Include="Assets\BodyVisualization\Scripts\Visualizations\BarGraph3DBig.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\Visualizations\HeartRateVisualization.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\Visualizations\JointAnglesVisualization.cs" />
     <Compile Include="Assets\BodyVisualization\Scripts\Visualizations\PanelBody.cs" />

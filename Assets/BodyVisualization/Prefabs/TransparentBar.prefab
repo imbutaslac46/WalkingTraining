@@ -254,7 +254,7 @@ MonoBehaviour:
   min: 0
   max: 50
   value: 0
-  showOnZero: 0
+  showOnZero: 1
 --- !u!114 &114700359100241730
 MonoBehaviour:
   m_ObjectHideFlags: 1

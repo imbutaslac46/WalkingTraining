@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{35262214-491c-4126-bc8d-1c0a1d7545f5}</ProjectGuid>
+    <ProjectGuid>{098ed2da-4282-41cd-89e5-194b0e6aed52}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj">
-      <Project>{5237fc13-8531-47fc-98a8-ceb3bb7a0183}</Project>
+      <Project>{278bf4b7-f464-47c4-a7e8-d690559fdfd0}</Project>
       <Name>VuforiaScripts</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.TilemapModule">
@@ -421,6 +421,9 @@
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\PanelButtonReceiver.cs">
       <Link>BodyVisualization\Scripts\PanelButtonReceiver.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\SkeletonManager.cs">
+      <Link>BodyVisualization\Scripts\SkeletonManager.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\SmartexMqttHandler.cs">
       <Link>BodyVisualization\Scripts\SmartexMqttHandler.cs</Link>
     </Compile>
@@ -429,6 +432,9 @@
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\BarGraph3D.cs">
       <Link>BodyVisualization\Scripts\Visualizations\BarGraph3D.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\BarGraph3DBig.cs">
+      <Link>BodyVisualization\Scripts\Visualizations\BarGraph3DBig.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\HeartRateVisualization.cs">
       <Link>BodyVisualization\Scripts\Visualizations\HeartRateVisualization.cs</Link>

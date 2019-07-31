@@ -9,8 +9,8 @@ using System.Collections.Generic;
 public class AppManager : MonoBehaviour
 {
     public BaseClient baseClient;
-    public ISkeletonProvider skeletonProvider;
-    public SkeletonVisualization skeletonVisualization;
+   // public ISkeletonProvider skeletonProvider;
+   // public SkeletonVisualization skeletonVisualization;
     public ObjManager objManager;
     public CalibrationManager calibrationManager;
     private GameObject heartRateVisualization;
@@ -73,6 +73,7 @@ public class AppManager : MonoBehaviour
     private void Start()
     {
         State = AppState.Start;
+
         heartRateVisualization = objManager.SpawnFromDatabase("HeartRateVisualization", "HeartRateVisualization");
         heartRateVisualization.GetComponent<IHideable>().Visible = false;
 
@@ -82,7 +83,6 @@ public class AppManager : MonoBehaviour
 
     private void Update()
     {
-        UpdateSkeletonVisualization();
         m_dataVisualizationManager.OnUpdate();
 
         /*
@@ -122,7 +122,7 @@ public class AppManager : MonoBehaviour
         baseClient.UnregisterTopicHandler("M2MQTT/Visualization", HandleVisualizationMqttMessage);
     }
     #endregion
-
+    /* moved skeleton implementation to another script
     private void UpdateSkeletonVisualization()
     {
         if ( skeletonVisualization == null || skeletonProvider == null)
@@ -133,13 +133,14 @@ public class AppManager : MonoBehaviour
         Dictionary<Windows.Kinect.JointType, Vector3> jointPositions = skeletonProvider.GetJointPositions();
         skeletonVisualization.SetJointPositions(jointPositions);
 
-        /*
+        
         // Position the heart rate visualization on the spine shoulder joint
         Vector3 spineShoulderPos = skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.SpineShoulder);
         Vector3 spineMidPos = skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.SpineMid);
         heartRateVisualization.transform.position = (spineShoulderPos + spineMidPos) / 2;
-        */
+        
     }
+    */
 
     private void ChangeState(AppState newState)
     {
@@ -198,10 +199,6 @@ public class AppManager : MonoBehaviour
                 {
                     StopChairPositionCalibration();
                 }
-            }
-            else if (flagName.Equals("Skeleton"))
-            {
-                skeletonVisualization.Visible = flag;
             }
             else if (flagName.Equals("HeartSound"))
             {
