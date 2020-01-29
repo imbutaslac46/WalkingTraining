@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/BodyVisualization/Scenes/MainScene.unity
     guid: 0e93058d3811e894087f0f10e14c2a85
+  - enabled: 0
+    path: Assets/BodyVisualization/Scenes/AndroidTestScene.unity
+    guid: 7c78e4fd5fdc0db4d98c0f1ddd8305d8
   m_configObjects: {}

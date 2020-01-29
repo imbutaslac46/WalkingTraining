@@ -5,14 +5,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{098ed2da-4282-41cd-89e5-194b0e6aed52}</ProjectGuid>
+    <ProjectGuid>{053a18ea-614f-4073-95b7-cbf96c92fbcd}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -130,8 +130,8 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj">
-      <Project>{278bf4b7-f464-47c4-a7e8-d690559fdfd0}</Project>
+    <ProjectReference Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj">
+      <Project>{6dbd49e7-fbd0-4580-a26d-54f578122d38}</Project>
       <Name>VuforiaScripts</Name>
     </ProjectReference>
     <Reference Include="UnityEngine.TilemapModule">
@@ -374,11 +374,14 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <SDKReference Include="WindowsDesktop, Version=10.0.17763.0"/>
-    <SDKReference Include="WindowsMobile, Version=10.0.17763.0"/>
-    <SDKReference Include="WindowsTeam, Version=10.0.17763.0"/>
+    <SDKReference Include="WindowsDesktop, Version=10.0.18362.0"/>
+    <SDKReference Include="WindowsMobile, Version=10.0.18362.0"/>
+    <SDKReference Include="WindowsTeam, Version=10.0.18362.0"/>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="$(UnityProjectDir)Assets\ArrowGraph3D.cs">
+      <Link>ArrowGraph3D.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\AppManager.cs">
       <Link>BodyVisualization\Scripts\AppManager.cs</Link>
     </Compile>
@@ -427,8 +430,14 @@
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\SmartexMqttHandler.cs">
       <Link>BodyVisualization\Scripts\SmartexMqttHandler.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\SoleDataManager.cs">
+      <Link>BodyVisualization\Scripts\SoleDataManager.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\AbstractVisualization.cs">
       <Link>BodyVisualization\Scripts\Visualizations\AbstractVisualization.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\BackInclination.cs">
+      <Link>BodyVisualization\Scripts\Visualizations\BackInclination.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\BarGraph3D.cs">
       <Link>BodyVisualization\Scripts\Visualizations\BarGraph3D.cs</Link>
@@ -436,17 +445,38 @@
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\BarGraph3DBig.cs">
       <Link>BodyVisualization\Scripts\Visualizations\BarGraph3DBig.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\BodyTemperatureVisualization.cs">
+      <Link>BodyVisualization\Scripts\Visualizations\BodyTemperatureVisualization.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\EMGGraph.cs">
+      <Link>BodyVisualization\Scripts\Visualizations\EMGGraph.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\HeartRateVisualization.cs">
       <Link>BodyVisualization\Scripts\Visualizations\HeartRateVisualization.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\JointAnglesVisualization.cs">
       <Link>BodyVisualization\Scripts\Visualizations\JointAnglesVisualization.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\LeftSoleVisualization.cs">
+      <Link>BodyVisualization\Scripts\Visualizations\LeftSoleVisualization.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\PanelBody.cs">
       <Link>BodyVisualization\Scripts\Visualizations\PanelBody.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\PanelForcesType1.cs">
       <Link>BodyVisualization\Scripts\Visualizations\PanelForcesType1.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\PostureVisualization.cs">
+      <Link>BodyVisualization\Scripts\Visualizations\PostureVisualization.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\BodyVisualization\Scripts\Visualizations\RightSoleVisualization.cs">
+      <Link>BodyVisualization\Scripts\Visualizations\RightSoleVisualization.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\DrawLineFeet.cs">
+      <Link>DrawLineFeet.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\DrawLineHead.cs">
+      <Link>DrawLineHead.cs</Link>
     </Compile>
     <Compile Include="$(UnityProjectDir)Assets\HoloToolkit\Boundary\Scripts\BoundaryManager.cs">
       <Link>HoloToolkit\Boundary\Scripts\BoundaryManager.cs</Link>
@@ -2800,6 +2830,12 @@
     <Compile Include="$(UnityProjectDir)Assets\Kinect\Windows\Kinect\Vector4.cs">
       <Link>Kinect\Windows\Kinect\Vector4.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\LeftSoleControlTransform.cs">
+      <Link>LeftSoleControlTransform.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\LeftSoleTransform.cs">
+      <Link>LeftSoleTransform.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\M2Mqtt\Exceptions\MqttClientException.cs">
       <Link>M2Mqtt\Exceptions\MqttClientException.cs</Link>
     </Compile>
@@ -2992,6 +3028,12 @@
     <Compile Include="$(UnityProjectDir)Assets\MiroKinectHololens\Scripts\VuforiaMarkerInfo.cs">
       <Link>MiroKinectHololens\Scripts\VuforiaMarkerInfo.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\RightSoleTransform.cs">
+      <Link>RightSoleTransform.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\RoadSpriteToggle.cs">
+      <Link>RoadSpriteToggle.cs</Link>
+    </Compile>
     <Compile Include="$(UnityProjectDir)Assets\Rotary Heart\SerializableDictionary\DrawKeyAsPropertyAttribute.cs">
       <Link>Rotary Heart\SerializableDictionary\DrawKeyAsPropertyAttribute.cs</Link>
     </Compile>
@@ -3016,6 +3058,12 @@
     <Compile Include="$(UnityProjectDir)Assets\SimpleJSON\SimpleJSON.cs">
       <Link>SimpleJSON\SimpleJSON.cs</Link>
     </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\VelocityCalculator.cs">
+      <Link>VelocityCalculator.cs</Link>
+    </Compile>
+    <Compile Include="$(UnityProjectDir)Assets\VelocityVisualization.cs">
+      <Link>VelocityVisualization.cs</Link>
+    </Compile>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
@@ -3028,7 +3076,7 @@
     <Message Importance="high" Text="Running SerializationWeaver..." />
     <Move SourceFiles="@(IntermediateAssembly)" DestinationFolder="$(TargetDir)Unprocessed" OverwriteReadOnlyFiles="true" />
     <Move SourceFiles="@(IntermediateAssembly-&gt;'%(RelativeDir)%(Filename).pdb')" DestinationFolder="$(TargetDir)Unprocessed" Condition="Exists('@(IntermediateAssembly-&gt;'%(RelativeDir)%(Filename).pdb')')" OverwriteReadOnlyFiles="true" />
-    <Exec Command="&quot;$(UnityWSAToolsDir)SerializationWeaver\SerializationWeaver.exe&quot; &quot;-pdb&quot; &quot;-verbose&quot; &quot;-unity-engine=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.CoreModule.dll&quot; &quot;$([System.IO.Path]::GetFullPath('$(IntermediateOutputPath)').TrimEnd('\'))&quot; &quot;-lock=$([System.IO.Path]::Combine('$(ProjectDir)', 'project.lock.json'))&quot; &quot;-assembly=$(TargetDir)Unprocessed\$(TargetFileName)&quot; &quot;@D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\Assembly-CSharp\SerializationWeaverArgs.txt&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed&quot; &quot;-unity-networking=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.Networking.dll&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)GeneratedProjects\UWP\VuforiaScripts\bin\$(PlatformName)\$(ConfigurationName)&quot;" />
+    <Exec Command="&quot;$(UnityWSAToolsDir)SerializationWeaver\SerializationWeaver.exe&quot; &quot;-pdb&quot; &quot;-verbose&quot; &quot;-unity-engine=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.CoreModule.dll&quot; &quot;$([System.IO.Path]::GetFullPath('$(IntermediateOutputPath)').TrimEnd('\'))&quot; &quot;-lock=$([System.IO.Path]::Combine('$(ProjectDir)', 'project.lock.json'))&quot; &quot;-assembly=$(TargetDir)Unprocessed\$(TargetFileName)&quot; &quot;@D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\Assembly-CSharp\SerializationWeaverArgs.txt&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed&quot; &quot;-unity-networking=$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\UnityEngine.Networking.dll&quot; &quot;-additionalAssemblyPath=$(UnityWSASolutionDir)GeneratedProjects\UWP\VuforiaScripts\bin\$(PlatformName)\$(ConfigurationName)&quot;" />
     <Message Importance="high" Text="SerializationWeaver done." />
   </Target>
   <PropertyGroup>

@@ -15965,12 +15965,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "projectPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
-      "outputPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+      "outputPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Michele\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -15983,8 +15983,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj": {
-              "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj"
+            "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj": {
+              "projectPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj"
             }
           }
         }

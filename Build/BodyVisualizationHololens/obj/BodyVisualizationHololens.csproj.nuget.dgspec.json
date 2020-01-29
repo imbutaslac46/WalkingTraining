@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj": {}
+  },
+  "projects": {
+    "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectJsonPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+        "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
+        "outputPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Michele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj": {
+                "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj",
+        "projectName": "VuforiaScripts",
+        "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj",
+        "projectJsonPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\project.json",
+        "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
+        "outputPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Michele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj",
+        "projectName": "BodyVisualizationHololens",
+        "projectPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj",
+        "projectJsonPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\project.json",
+        "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
+        "outputPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\obj\\",
+        "projectStyle": "ProjectJson",
+        "configFilePaths": [
+          "C:\\Users\\Michele\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.10240": {
+            "projectReferences": {
+              "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+                "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+              },
+              "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj": {
+                "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj"
+              }
+            }
+          }
+        }
+      },
+      "dependencies": {
+        "Microsoft.ApplicationInsights": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.PersistenceChannel": "[1.0.0, )",
+        "Microsoft.ApplicationInsights.WindowsApps": "[1.0.0, )",
+        "Microsoft.NETCore.UniversalWindowsPlatform": "[5.0.0, )"
+      },
+      "frameworks": {
+        "uap10.0.10240": {}
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@
     <AssemblyName>BodyVisualizationHololens</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -147,7 +147,7 @@
     <SDKReference Include="Microsoft.VCLibs, Version=14.0">
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>
-    <SDKReference Include="WindowsMobile, Version=10.0.17763.0">
+    <SDKReference Include="WindowsMobile, Version=10.0.18362.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
@@ -387,12 +387,12 @@
 
   <ItemGroup>
     <ProjectReference Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{098ed2da-4282-41cd-89e5-194b0e6aed52}</Project>
+      <Project>{e248cccf-1103-4b2e-94ab-53bbe4b069ab}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj">
-      <Project>{278bf4b7-f464-47c4-a7e8-d690559fdfd0}</Project>
+      <Project>{1cf97be3-960d-4fba-b55f-731209d3f8ee}</Project>
       <Name>VuforiaScripts</Name>
       <Private>False</Private>
     </ProjectReference>

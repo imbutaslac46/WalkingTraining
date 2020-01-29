@@ -20,3 +20,25 @@ D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjec
 D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\qualifiers.txt
 D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
 D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\bin\x86\Release\VuforiaScripts.dll
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\bin\x86\Release\VuforiaScripts.pdb
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\bin\x86\Release\VuforiaScripts.pri
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\VuforiaScripts.csprojAssemblyReference.cache
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\VuforiaScripts.csproj.CoreCompileInputs.cache
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\VuforiaScripts.dll
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\VuforiaScripts.pdb
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\priconfig.xml
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\priconfig.xml.intermediate
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\unfiltered.layout.resfiles
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\unfiltered.layout.resfiles.intermediate
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\filtered.layout.resfiles
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\filtered.layout.resfiles.intermediate
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\excluded.layout.resfiles
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\excluded.layout.resfiles.intermediate
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\resources.resfiles
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\resources.resfiles.intermediate
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\pri.resfiles
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\pri.resfiles.intermediate
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\qualifiers.txt
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\qualifiers.txt.intermediate
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\obj\x86\Release\x86\Release\MultipleQualifiersPerDimensionFound.txt

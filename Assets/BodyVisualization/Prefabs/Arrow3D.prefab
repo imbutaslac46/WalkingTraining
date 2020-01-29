@@ -105,8 +105,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4410308750012974}
-  - component: {fileID: 114056180140428624}
   - component: {fileID: 114608674498355100}
+  - component: {fileID: 114130529743762572}
   m_Layer: 0
   m_Name: Arrow3D
   m_TagString: Untagged
@@ -283,7 +283,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1668518646419052}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114056180140428624
+--- !u!114 &114130529743762572
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -291,14 +291,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1766389610388868}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c7e7c7a718947b41acc1a963d6666cb, type: 3}
+  m_Script: {fileID: 11500000, guid: c051778cc12986847b43e3da8f1485ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   barObject: {fileID: 1354593449554706}
   valueText: {fileID: 114368981070705302}
   units: kg
   min: 0
-  max: 50
+  max: 100
   value: 0
   showOnZero: 1
 --- !u!114 &114368981070705302

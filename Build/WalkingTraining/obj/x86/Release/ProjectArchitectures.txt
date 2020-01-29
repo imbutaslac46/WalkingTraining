@@ -1,0 +1,4 @@
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj;x86
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj;x86
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\WalkingTraining\WalkingTraining.csproj;x86

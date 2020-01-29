@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>f119da65-8653-4443-8f50-a9fbfc91bbc5</PackageIdentityName>
     <PackageIdentityPublisher>CN=DefaultCompany</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\obj\x86\Release\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\obj\x86\Release\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\AppX</LayoutDir>
-    <RegisteredManifestChecksum>924DB964DBE037BC59F2E866EB78E030B44F2CFDB1DB5BF104EBDA7411389823</RegisteredManifestChecksum>
+    <LayoutDir>D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A6C0C78A7B134DE601FF056A7BDF8D00D816FCCD576F20D7ACEF1846DC0107C5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>Template3D_1.0.0.0_x86__pzq3xp76mxafg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>Template3D_pzq3xp76mxafg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>Template3D</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-07-31T07:45:47.384</Modified>
+      <Modified>2019-11-27T09:44:26.921</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\BodyVisualizationHololens.exe">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\BodyVisualizationHololens.exe">
       <PackagePath>entrypoint\BodyVisualizationHololens.exe</PackagePath>
-      <Modified>2019-07-31T07:45:27.461</Modified>
+      <Modified>2019-11-27T09:44:05.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Michele\.nuget\packages\microsoft.applicationinsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -470,7 +470,7 @@
       <PackagePath>WinRTBridge.dll</PackagePath>
       <Modified>2018-10-05T14:39:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Unprocessed\WinRTLegacy.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Unprocessed\WinRTLegacy.dll">
       <PackagePath>WinRTLegacy.dll</PackagePath>
       <Modified>2018-10-05T14:57:10.000</Modified>
     </AppxPackagedFile>
@@ -490,90 +490,90 @@
       <PackagePath>UnityPlayer.winmd</PackagePath>
       <Modified>2018-10-05T14:40:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Resource.res">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Resource.res">
       <PackagePath>Resource.res</PackagePath>
-      <Modified>2019-07-31T07:44:39.046</Modified>
+      <Modified>2019-10-28T02:12:30.835</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\StoreManifest.xml">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\StoreManifest.xml">
       <PackagePath>StoreManifest.xml</PackagePath>
-      <Modified>2019-07-31T07:44:21.553</Modified>
+      <Modified>2019-10-28T02:12:16.046</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-10-02T08:27:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\StreamingAssets\Vuforia\HololensSkeleton.xml">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\StreamingAssets\Vuforia\HololensSkeleton.xml">
       <PackagePath>Data\StreamingAssets\Vuforia\HololensSkeleton.xml</PackagePath>
       <Modified>2019-03-11T09:02:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-02T08:27:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-02T08:27:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-02T08:27:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square44x44Logo.targetsize-24.png">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square44x44Logo.targetsize-24.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-02T08:27:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-02T08:27:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-02T08:27:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-10-02T08:27:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\PlaneFinding.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\PlaneFinding.dll">
       <PackagePath>PlaneFinding.dll</PackagePath>
       <Modified>2018-08-01T21:59:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\VuforiaDL.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\VuforiaDL.dll">
       <PackagePath>VuforiaDL.dll</PackagePath>
       <Modified>2019-01-04T03:01:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\MicStreamSelector.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\MicStreamSelector.dll">
       <PackagePath>MicStreamSelector.dll</PackagePath>
       <Modified>2018-08-01T21:59:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\GpuTiming.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\GpuTiming.dll">
       <PackagePath>GpuTiming.dll</PackagePath>
       <Modified>2018-08-01T21:59:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\SharingClient.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\SharingClient.dll">
       <PackagePath>SharingClient.dll</PackagePath>
       <Modified>2018-08-01T21:59:09.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\VuforiaWrapper.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\VuforiaWrapper.dll">
       <PackagePath>VuforiaWrapper.dll</PackagePath>
       <Modified>2019-01-04T05:23:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\SpatialUnderstanding.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\SpatialUnderstanding.dll">
       <PackagePath>SpatialUnderstanding.dll</PackagePath>
       <Modified>2018-08-01T21:59:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Vuforia.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Vuforia.dll">
       <PackagePath>Vuforia.dll</PackagePath>
       <Modified>2019-01-04T03:11:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\HolographicStreamerDesktop.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\HolographicStreamerDesktop.dll">
       <PackagePath>HolographicStreamerDesktop.dll</PackagePath>
       <Modified>2018-10-05T14:33:20.000</Modified>
     </AppxPackagedFile>
@@ -581,356 +581,356 @@
       <PackagePath>UnityEngineDelegates.dll</PackagePath>
       <Modified>2018-10-05T14:39:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\boot.config">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
-      <Modified>2019-07-31T07:44:20.840</Modified>
+      <Modified>2019-10-28T02:12:11.111</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\globalgamemanagers">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\globalgamemanagers">
       <PackagePath>Data\globalgamemanagers</PackagePath>
-      <Modified>2019-07-31T07:44:19.364</Modified>
+      <Modified>2019-10-28T02:11:28.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\level0">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\level0">
       <PackagePath>Data\level0</PackagePath>
-      <Modified>2019-07-31T07:44:16.416</Modified>
+      <Modified>2019-10-28T02:11:25.502</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\Resources\unity default resources">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
       <Modified>2018-10-05T13:52:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\Resources\unity_builtin_extra">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\Resources\unity_builtin_extra">
       <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
-      <Modified>2019-07-31T07:44:20.837</Modified>
+      <Modified>2019-10-28T02:12:11.107</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\globalgamemanagers.assets">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\globalgamemanagers.assets">
       <PackagePath>Data\globalgamemanagers.assets</PackagePath>
-      <Modified>2019-07-31T07:44:19.540</Modified>
+      <Modified>2019-10-28T02:11:28.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\resources.assets">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
-      <Modified>2019-07-31T07:44:19.863</Modified>
+      <Modified>2019-10-28T02:11:48.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\sharedassets0.assets">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
-      <Modified>2019-07-31T07:44:20.599</Modified>
+      <Modified>2019-10-28T02:12:03.331</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\level0.resS">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\level0.resS">
       <PackagePath>Data\level0.resS</PackagePath>
-      <Modified>2019-07-31T07:44:16.408</Modified>
+      <Modified>2019-10-28T02:11:25.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\resources.assets.resS">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\resources.assets.resS">
       <PackagePath>Data\resources.assets.resS</PackagePath>
-      <Modified>2019-07-31T07:44:19.861</Modified>
+      <Modified>2019-10-28T02:11:48.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\sharedassets0.assets.resS">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
-      <Modified>2019-07-31T07:44:20.590</Modified>
+      <Modified>2019-10-28T02:12:03.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\managedAssemblies.txt">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
-      <Modified>2019-07-31T07:44:38.996</Modified>
+      <Modified>2019-10-28T02:12:30.775</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\nativePlugins.txt">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\nativePlugins.txt">
       <PackagePath>Data\nativePlugins.txt</PackagePath>
-      <Modified>2019-07-31T07:44:38.999</Modified>
+      <Modified>2019-10-28T02:12:30.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\sharedassets0.resource">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\sharedassets0.resource">
       <PackagePath>Data\sharedassets0.resource</PackagePath>
-      <Modified>2019-07-31T07:44:20.602</Modified>
+      <Modified>2019-10-28T02:12:03.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\StreamingAssets\Vuforia\HololensSkeleton.dat">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Data\StreamingAssets\Vuforia\HololensSkeleton.dat">
       <PackagePath>Data\StreamingAssets\Vuforia\HololensSkeleton.dat</PackagePath>
       <Modified>2019-03-11T09:02:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2018-10-22T15:44:28.000</Modified>
+      <Modified>2019-03-18T08:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\resources.pri">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-07-31T07:45:28.154</Modified>
+      <Modified>2019-11-27T09:44:07.051</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TilemapModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TilemapModule.dll">
       <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.459</Modified>
+      <Modified>2019-11-27T09:44:23.004</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TextRenderingModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.501</Modified>
+      <Modified>2019-11-27T09:44:23.053</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UNETModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.559</Modified>
+      <Modified>2019-11-27T09:44:23.098</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UIModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UIModule.dll">
       <PackagePath>UnityEngine.UIModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.603</Modified>
+      <Modified>2019-11-27T09:44:23.144</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UIElementsModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.719</Modified>
+      <Modified>2019-11-27T09:44:23.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TerrainPhysicsModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.758</Modified>
+      <Modified>2019-11-27T09:44:23.284</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SpriteShapeModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SpriteShapeModule.dll">
       <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.813</Modified>
+      <Modified>2019-11-27T09:44:23.296</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SpriteMaskModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SpriteMaskModule.dll">
       <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.859</Modified>
+      <Modified>2019-11-27T09:44:23.307</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.StreamingModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.StreamingModule.dll">
       <PackagePath>UnityEngine.StreamingModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.895</Modified>
+      <Modified>2019-11-27T09:44:23.319</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TerrainModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TerrainModule.dll">
       <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.962</Modified>
+      <Modified>2019-11-27T09:44:23.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SubstanceModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SubstanceModule.dll">
       <PackagePath>UnityEngine.SubstanceModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.008</Modified>
+      <Modified>2019-11-27T09:44:23.374</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.StyleSheetsModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.058</Modified>
+      <Modified>2019-11-27T09:44:23.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.WindModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.093</Modified>
+      <Modified>2019-11-27T09:44:23.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.VRModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.VRModule.dll">
       <PackagePath>UnityEngine.VRModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.143</Modified>
+      <Modified>2019-11-27T09:44:23.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.VideoModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.177</Modified>
+      <Modified>2019-11-27T09:44:23.493</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.XRModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.XRModule.dll">
       <PackagePath>UnityEngine.XRModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.213</Modified>
+      <Modified>2019-11-27T09:44:23.542</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.VehiclesModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.251</Modified>
+      <Modified>2019-11-27T09:44:23.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestAssetBundleModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestAssetBundleModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAssetBundleModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.290</Modified>
+      <Modified>2019-11-27T09:44:23.582</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityConnectModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityConnectModule.dll">
       <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.422</Modified>
+      <Modified>2019-11-27T09:44:23.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityAnalyticsModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.466</Modified>
+      <Modified>2019-11-27T09:44:23.606</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestAudioModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestAudioModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.485</Modified>
+      <Modified>2019-11-27T09:44:23.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestWWWModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestWWWModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.535</Modified>
+      <Modified>2019-11-27T09:44:23.632</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestTextureModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.569</Modified>
+      <Modified>2019-11-27T09:44:23.651</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:44.615</Modified>
+      <Modified>2019-11-27T09:44:23.690</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.CoreModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.CoreModule.dll">
       <PackagePath>UnityEngine.CoreModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.087</Modified>
+      <Modified>2019-11-27T09:44:24.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ClothModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ClothModule.dll">
       <PackagePath>UnityEngine.ClothModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.107</Modified>
+      <Modified>2019-11-27T09:44:24.752</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AudioModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.160</Modified>
+      <Modified>2019-11-27T09:44:24.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.CrashReportingModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.CrashReportingModule.dll">
       <PackagePath>UnityEngine.CrashReportingModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.191</Modified>
+      <Modified>2019-11-27T09:44:24.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.GameCenterModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.GameCenterModule.dll">
       <PackagePath>UnityEngine.GameCenterModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.214</Modified>
+      <Modified>2019-11-27T09:44:24.839</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.dll">
       <PackagePath>UnityEngine.dll</PackagePath>
-      <Modified>2019-07-31T07:44:26.364</Modified>
+      <Modified>2019-10-28T02:12:18.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.DirectorModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.DirectorModule.dll">
       <PackagePath>UnityEngine.DirectorModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.233</Modified>
+      <Modified>2019-11-27T09:44:24.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AssetBundleModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AssetBundleModule.dll">
       <PackagePath>UnityEngine.AssetBundleModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.275</Modified>
+      <Modified>2019-11-27T09:44:24.866</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AccessibilityModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AccessibilityModule.dll">
       <PackagePath>UnityEngine.AccessibilityModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.316</Modified>
+      <Modified>2019-11-27T09:44:24.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ARModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ARModule.dll">
       <PackagePath>UnityEngine.ARModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.358</Modified>
+      <Modified>2019-11-27T09:44:24.913</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AnimationModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AnimationModule.dll">
       <PackagePath>UnityEngine.AnimationModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.405</Modified>
+      <Modified>2019-11-27T09:44:24.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AIModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.AIModule.dll">
       <PackagePath>UnityEngine.AIModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.449</Modified>
+      <Modified>2019-11-27T09:44:24.984</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.PerformanceReportingModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.PerformanceReportingModule.dll">
       <PackagePath>UnityEngine.PerformanceReportingModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.482</Modified>
+      <Modified>2019-11-27T09:44:24.998</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ParticleSystemModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ParticleSystemModule.dll">
       <PackagePath>UnityEngine.ParticleSystemModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.522</Modified>
+      <Modified>2019-11-27T09:44:25.028</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ParticlesLegacyModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ParticlesLegacyModule.dll">
       <PackagePath>UnityEngine.ParticlesLegacyModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.555</Modified>
+      <Modified>2019-11-27T09:44:25.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.Physics2DModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.Physics2DModule.dll">
       <PackagePath>UnityEngine.Physics2DModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.590</Modified>
+      <Modified>2019-11-27T09:44:25.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SharedInternalsModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.627</Modified>
+      <Modified>2019-11-27T09:44:25.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ScreenCaptureModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ScreenCaptureModule.dll">
       <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.667</Modified>
+      <Modified>2019-11-27T09:44:25.127</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.PhysicsModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.PhysicsModule.dll">
       <PackagePath>UnityEngine.PhysicsModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.709</Modified>
+      <Modified>2019-11-27T09:44:25.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ImageConversionModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.ImageConversionModule.dll">
       <PackagePath>UnityEngine.ImageConversionModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.763</Modified>
+      <Modified>2019-11-27T09:44:25.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.GridModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.GridModule.dll">
       <PackagePath>UnityEngine.GridModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.806</Modified>
+      <Modified>2019-11-27T09:44:25.185</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.IMGUIModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.IMGUIModule.dll">
       <PackagePath>UnityEngine.IMGUIModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.875</Modified>
+      <Modified>2019-11-27T09:44:25.236</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.LocalizationModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.LocalizationModule.dll">
       <PackagePath>UnityEngine.LocalizationModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.906</Modified>
+      <Modified>2019-11-27T09:44:25.259</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.JSONSerializeModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.JSONSerializeModule.dll">
       <PackagePath>UnityEngine.JSONSerializeModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.939</Modified>
+      <Modified>2019-11-27T09:44:25.270</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.InputModule.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.InputModule.dll">
       <PackagePath>UnityEngine.InputModule.dll</PackagePath>
-      <Modified>2019-07-31T07:45:45.969</Modified>
+      <Modified>2019-11-27T09:44:25.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.045</Modified>
+      <Modified>2019-11-27T09:44:25.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.Timeline.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.Timeline.dll">
       <PackagePath>UnityEngine.Timeline.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.110</Modified>
+      <Modified>2019-11-27T09:44:25.461</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\nunit.framework.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\nunit.framework.dll">
       <PackagePath>nunit.framework.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.211</Modified>
+      <Modified>2019-11-27T09:44:25.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UI.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.UI.dll">
       <PackagePath>UnityEngine.UI.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.307</Modified>
+      <Modified>2019-11-27T09:44:25.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SpatialTracking.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.SpatialTracking.dll">
       <PackagePath>UnityEngine.SpatialTracking.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.346</Modified>
+      <Modified>2019-11-27T09:44:25.724</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.HoloLens.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.394</Modified>
+      <Modified>2019-11-27T09:44:25.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Vuforia.UnityExtensions.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Vuforia.UnityExtensions.dll">
       <PackagePath>Vuforia.UnityExtensions.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.482</Modified>
+      <Modified>2019-11-27T09:44:25.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.Networking.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.Networking.dll">
       <PackagePath>UnityEngine.Networking.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.578</Modified>
+      <Modified>2019-11-27T09:44:25.918</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\GLTFSerializationUWP.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\GLTFSerializationUWP.dll">
       <PackagePath>GLTFSerializationUWP.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.635</Modified>
+      <Modified>2019-11-27T09:44:25.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TestRunner.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\UnityEngine.TestRunner.dll">
       <PackagePath>UnityEngine.TestRunner.dll</PackagePath>
-      <Modified>2019-07-31T07:45:46.716</Modified>
+      <Modified>2019-11-27T09:44:26.024</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assembly-CSharp.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\Assembly-CSharp.dll">
       <PackagePath>Assembly-CSharp.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.371</Modified>
+      <Modified>2019-11-27T09:44:22.781</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\VuforiaScripts.dll">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\VuforiaScripts.dll">
       <PackagePath>VuforiaScripts.dll</PackagePath>
-      <Modified>2019-07-31T07:45:43.415</Modified>
+      <Modified>2019-11-27T09:44:22.952</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\Core\BodyVisualizationHololens.exe">
+    <AppxPackagedFile Include="D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\bin\x86\Release\Core\BodyVisualizationHololens.exe">
       <PackagePath>BodyVisualizationHololens.exe</PackagePath>
-      <Modified>2019-07-31T07:45:47.381</Modified>
+      <Modified>2019-11-27T09:44:26.907</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
@@ -964,36 +964,36 @@
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>ARM64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x64</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
     <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
       <Name>Microsoft.VCLibs.140.00</Name>
-      <Version>14.0.26706.0</Version>
+      <Version>14.0.27323.0</Version>
       <Architecture>x86</Architecture>
-      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.26706.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
       <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>

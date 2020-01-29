@@ -89,6 +89,7 @@ public class CalibrationManager : MonoBehaviour
         }
         else if( m_currentState == State.WaitingForAnchor )
         {
+            #if UNITY_WSA
             if( m_worldAnchorManager.AnchorStore != null )
             {
                 m_worldAnchorManager.AttachAnchor(kinectMarkerOriginAnchor);
@@ -96,6 +97,7 @@ public class CalibrationManager : MonoBehaviour
 
                 m_currentState = State.SetupVuforia;
             }
+            #endif
         }
         else if( m_currentState == State.SetupVuforia )
         {
@@ -154,6 +156,7 @@ public class CalibrationManager : MonoBehaviour
             {
                 m_finishCalibration = false;
 
+
                 chairAnchor.transform.position = marker.transform.position;
                 chairAnchor.transform.rotation = marker.transform.rotation;
                 m_worldAnchorManager.AttachAnchor(chairAnchor);
@@ -166,7 +169,7 @@ public class CalibrationManager : MonoBehaviour
             }
         }
     }
-    #endregion
+#endregion
     
     private void StartVuforiaCamera()
     {

@@ -15890,12 +15890,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj",
+      "projectUniqueName": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj",
       "projectName": "VuforiaScripts",
-      "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj",
-      "projectJsonPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\project.json",
+      "projectPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\VuforiaScripts.csproj",
+      "projectJsonPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\project.json",
       "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
-      "outputPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\obj\\",
+      "outputPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\GeneratedProjects\\UWP\\VuforiaScripts\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Michele\\AppData\\Roaming\\NuGet\\NuGet.Config",

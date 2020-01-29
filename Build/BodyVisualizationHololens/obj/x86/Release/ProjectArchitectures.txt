@@ -1,4 +1,4 @@
-D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\BodyVisualizationHololens\BodyVisualizationHololens.csproj;x86
 D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
 D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj;x86
 D:\Sid\Body Visualization System\BodyVisualizationHololens\Build\GeneratedProjects\UWP\VuforiaScripts\VuforiaScripts.csproj;x86
+D:\Sid\Walking Training\BodyVisualizationHololens\Build\BodyVisualizationHololens\BodyVisualizationHololens.csproj;x86

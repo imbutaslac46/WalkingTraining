@@ -5,7 +5,14 @@ using Kinect = Windows.Kinect;
 public class JointAnglesVisualization : MonoBehaviour, IHideable
 {
     public GameObject textMeshPrefab;
-    
+
+    AudioSource AUDIO_obj;
+    public bool soundElbowLeft = true;
+    public bool soundElbowRight = true;
+    public bool soundKneeLeft = true;
+    public bool soundKneeRight = true;
+
+
     private struct JointMeasure
     {
         public Kinect.JointType jointToMeasure;
@@ -77,7 +84,9 @@ public class JointAnglesVisualization : MonoBehaviour, IHideable
 
     private void Start()
     {
-        
+        AUDIO_obj = GameObject.Find("Audio").GetComponent<AudioSource>();
+        AUDIO_obj.Stop();
+
         for (int i = 0; i < m_jointsToVisualize.Count; i++)
         {
             JointMeasure jointMeasure = m_jointsToVisualize[i];
@@ -109,24 +118,76 @@ public class JointAnglesVisualization : MonoBehaviour, IHideable
             {
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.jointToMeasure, angle);
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.refJoint2, angle);
+                if (angle <= 60 && soundElbowLeft == true)
+                {
+                    AUDIO_obj.Play();
+                    soundElbowLeft = false;
+                }
+                else if(angle <= 60)
+                {
+                    soundElbowLeft = false;
+                }
+                else if (angle > 60)
+                {
+                    soundElbowLeft = true;
+                }
             }
 
             else if (m_skeletonManager.ElbowRightFlag == true && i == 1)
             {
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.jointToMeasure, angle);
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.refJoint2, angle);
+                if (angle <= 60 && soundElbowRight == true)
+                {
+                    AUDIO_obj.Play();
+                    soundElbowRight = false;
+                }
+                else if (angle <= 60)
+                {
+                    soundElbowRight = false;
+                }
+                else if (angle > 60)
+                {
+                    soundElbowRight = true;
+                }
             }
 
             else if (m_skeletonManager.KneeLeftFlag == true && i == 2)
             {
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.jointToMeasure, angle);
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.refJoint2, angle);
+                if (angle <= 60 && soundKneeLeft == true)
+                {
+                    AUDIO_obj.Play();
+                    soundKneeLeft = false;
+                }
+                else if (angle <= 60)
+                {
+                    soundKneeLeft = false;
+                }
+                else if (angle > 60)
+                {
+                    soundKneeLeft = true;
+                }
             }
 
             else if (m_skeletonManager.KneeRightFlag == true && i == 3)
             {
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.jointToMeasure, angle);
                 m_skeletonVisualization.SetBoneColorFromAngle(measure.refJoint2, angle);
+                if (angle <= 60 && soundKneeRight == true)
+                {
+                    AUDIO_obj.Play();
+                    soundKneeRight = false;
+                }
+                else if (angle <= 60)
+                {
+                    soundKneeRight = false;
+                }
+                else if (angle > 60)
+                {
+                    soundKneeRight = true;
+                }
             }
         }
     }

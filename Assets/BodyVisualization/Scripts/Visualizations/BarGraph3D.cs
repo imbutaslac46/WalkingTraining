@@ -79,7 +79,7 @@ public class BarGraph3D : AbstractVisualization, IHideable
         {
             // For now, assume vertical
             Vector3 scale = barObject.transform.localScale;
-            scale.y = percentage * 3;
+            scale.y = percentage * 1.5f;
 
             barObject.transform.localScale = scale;
         }

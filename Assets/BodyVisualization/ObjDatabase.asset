@@ -46,8 +46,17 @@ MonoBehaviour:
     - TransparentBar
     - JointAnglesVisualization
     - HeartRateVisualization
+    - BodyTemperatureVisualization
+    - EMGGraph
+    - RightSoleVisualization
+    - LeftSoleVisualization
+    - SideRightSoleVisualization
+    - SideLeftSoleVisualization
     - PanelBody
     - PanelForcesType1
+    - PostureVisualization
+    - BackInclination
+    - VelocityVisualization
     _keys:
     - BarGraph
     - BarGraphBig
@@ -60,8 +69,17 @@ MonoBehaviour:
     - TransparentBar
     - JointAnglesVisualization
     - HeartRateVisualization
+    - BodyTemperatureVisualization
+    - EMGGraph
+    - RightSoleVisualization
+    - LeftSoleVisualization
+    - SideRightSoleVisualization
+    - SideLeftSoleVisualization
     - PanelBody
     - PanelForcesType1
+    - PostureVisualization
+    - BackInclination
+    - VelocityVisualization
     _values:
     - {fileID: 1422597020207958, guid: 3e9cb64aa01142243be6238729784980, type: 2}
     - {fileID: 1422597020207958, guid: 17c0d235fad48934ebb257a8fd8bb0e9, type: 2}
@@ -74,5 +92,14 @@ MonoBehaviour:
     - {fileID: 1992966247012128, guid: 129a9c60b46e6c343a8e03093709c63a, type: 2}
     - {fileID: 1154466614380962, guid: fd793400de82bf84292eafb49ea0263f, type: 2}
     - {fileID: 1166041444690150, guid: a192a3b4ae7fc824695caa048216413d, type: 2}
+    - {fileID: 1595749996213190, guid: 426ed7c2067aab243a69706ae5ff130d, type: 2}
+    - {fileID: 1767398009164754, guid: 198856e4aab8bee49a199cbc0dfd116d, type: 2}
+    - {fileID: 1646083196117448, guid: 6222b8951c4643048bd540ad13083098, type: 2}
+    - {fileID: 1098225307749090, guid: a664d6606956c5b49af534d43d36f221, type: 2}
+    - {fileID: 1816571137808710, guid: a932194aa9708a74fbbc0c585374531a, type: 2}
+    - {fileID: 1585226175449904, guid: cb8280232c8ba0146b42e210c6e166c6, type: 2}
     - {fileID: 1474349677643034, guid: 3bde25633c4f8b94f9a56a9e74cfbc0f, type: 2}
     - {fileID: 1197987723420548, guid: 6d0738e3d5b28fd4b8281b640f51e86d, type: 2}
+    - {fileID: 1154466614380962, guid: 6e63e2397ab68e84898cb7630e470e11, type: 2}
+    - {fileID: 1654923264775212, guid: afa3f9411c7737d49bad4995bcde0ea3, type: 2}
+    - {fileID: 1654923264775212, guid: d176b5bf28045df42a29e469972a929d, type: 2}

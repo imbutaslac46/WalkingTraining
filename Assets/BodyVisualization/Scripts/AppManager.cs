@@ -14,8 +14,22 @@ public class AppManager : MonoBehaviour
     public ObjManager objManager;
     public CalibrationManager calibrationManager;
     private GameObject heartRateVisualization;
+    private GameObject bodyTemperatureVisualization;
+    private GameObject emgDataVisualization;
+    private GameObject rightSoleVisualization;
+    private GameObject leftSoleVisualization;
+    private GameObject sideRightSoleVisualization;
+    private GameObject sideLeftSoleVisualization;
     private DataVisualizationManager m_dataVisualizationManager;
+    private RoadSpriteToggle m_roadSpriteToggle;
+    private RightSoleTransform m_rightSoleTransform;
+    private LeftSoleTransform m_leftSoleTransform;
     private GameObject m_jointAnglesVisualization;
+    private GameObject m_postureVisualization;
+    private GameObject m_backInclination;
+    private GameObject m_velocityVisualization;
+    private SkeletonVisualization m_skeletonVisualization;
+    
 
     public enum AppState
     {
@@ -68,24 +82,59 @@ public class AppManager : MonoBehaviour
     private void Awake()
     {
         m_dataVisualizationManager = new DataVisualizationManager();
+        m_skeletonVisualization = GameObject.FindObjectOfType<SkeletonVisualization>();
+        m_roadSpriteToggle = GameObject.FindObjectOfType<RoadSpriteToggle>();
+        
     }
 
     private void Start()
     {
         State = AppState.Start;
+        
+        m_jointAnglesVisualization = objManager.SpawnFromDatabase("JointAnglesVisualization", "JointAnglesVisualization");
+        m_jointAnglesVisualization.GetComponent<IHideable>().Visible = false;
+
+        m_postureVisualization = objManager.SpawnFromDatabase("PostureVisualization", "PostureVisualization");
+        m_postureVisualization.GetComponent<IHideable>().Visible = false;
+
+        m_backInclination = objManager.SpawnFromDatabase("BackInclination", "BackInclination");
+        m_backInclination.GetComponent<IHideable>().Visible = false;
+
+        m_velocityVisualization = objManager.SpawnFromDatabase("VelocityVisualization", "VelocityVisualization");
+        m_velocityVisualization.GetComponent<IHideable>().Visible = false;
 
         heartRateVisualization = objManager.SpawnFromDatabase("HeartRateVisualization", "HeartRateVisualization");
         heartRateVisualization.GetComponent<IHideable>().Visible = false;
 
-        m_jointAnglesVisualization = objManager.SpawnFromDatabase("JointAnglesVisualization", "JointAnglesVisualization");
-        m_jointAnglesVisualization.GetComponent<IHideable>().Visible = false;
+        bodyTemperatureVisualization = objManager.SpawnFromDatabase("BodyTemperatureVisualization", "BodyTemperatureVisualization");
+        bodyTemperatureVisualization.GetComponent<IHideable>().Visible = false;
+
+        emgDataVisualization = objManager.SpawnFromDatabase("EMGGraph", "EMGGraph");
+        emgDataVisualization.GetComponent<IHideable>().Visible = false;
+
+        rightSoleVisualization = objManager.SpawnFromDatabase("RightSoleVisualization", "RightSoleVisualization");
+        rightSoleVisualization.GetComponent<IHideable>().Visible = false;
+
+        leftSoleVisualization = objManager.SpawnFromDatabase("LeftSoleVisualization", "LeftSoleVisualization");
+        leftSoleVisualization.GetComponent<IHideable>().Visible = false;
+
+        sideRightSoleVisualization = objManager.SpawnFromDatabase("SideRightSoleVisualization", "SideRightSoleVisualization");
+        sideRightSoleVisualization.GetComponent<IHideable>().Visible = true;
+
+        sideLeftSoleVisualization = objManager.SpawnFromDatabase("SideLeftSoleVisualization", "SideLeftSoleVisualization");
+        sideLeftSoleVisualization.GetComponent<IHideable>().Visible = true;
+
+        m_rightSoleTransform = GameObject.FindObjectOfType<RightSoleTransform>();
+        m_leftSoleTransform = GameObject.FindObjectOfType<LeftSoleTransform>();
+        sideRightSoleVisualization.GetComponent<IHideable>().Visible = false;
+        sideLeftSoleVisualization.GetComponent<IHideable>().Visible = false;
     }
 
     private void Update()
     {
         m_dataVisualizationManager.OnUpdate();
 
-        /*
+        
         //keep track of the state of the HoloLens App
         if (State == AppState.Start)
         {
@@ -94,7 +143,55 @@ public class AppManager : MonoBehaviour
             OffsetFromAnchorTowardsCamera temp = heartRateVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
             if (temp != null)
             {
-                temp.anchor = skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.SpineShoulder).transform;
+                temp.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.SpineShoulder).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp0 = emgDataVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp0 != null)
+            {
+                temp0.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.ElbowRight).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp1 = bodyTemperatureVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp1 != null)
+            {
+                temp1.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.SpineShoulder).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp2 = m_backInclination.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp2 != null)
+            {
+                temp2.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.SpineShoulder).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp3 = m_velocityVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp3 != null)
+            {
+                temp3.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.Head).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp4 = rightSoleVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp4 != null)
+            {
+                temp4.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.FootRight).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp5 = leftSoleVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp5 != null)
+            {
+                temp5.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.FootLeft).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp6 = sideRightSoleVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp6 != null)
+            {
+                temp6.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.FootRight).transform;
+            }
+
+            OffsetFromAnchorTowardsCamera temp7 = sideLeftSoleVisualization.GetComponent<OffsetFromAnchorTowardsCamera>();
+            if (temp7 != null)
+            {
+                temp7.anchor = m_skeletonVisualization.GetJointGameObject(Windows.Kinect.JointType.FootLeft).transform;
             }
 
             ChangeState(AppState.Running);
@@ -102,14 +199,51 @@ public class AppManager : MonoBehaviour
 
         else if (State == AppState.Running)
         {
+            //heartRateVisualization.GetComponent<IHideable>().Visible = true;
+            Vector3 spineShoulderPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.SpineShoulder);
+            Vector3 spineMidPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.SpineMid);
+            Vector3 headPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.Head);
+            Vector3 elbowRightPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.ElbowRight);
+            Vector3 ankleRightPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.AnkleRight);
+            Vector3 ankleLeftPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.AnkleLeft);
+            Vector3 footRightPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.FootRight);
+            Vector3 footLeftPos = m_skeletonVisualization.GetJointWorldPosition(Windows.Kinect.JointType.FootLeft);
+
+            Vector3 midPos = (spineShoulderPos + spineMidPos) / 2;
+
+            Vector3 soleRightDir = new Vector3(footRightPos.x - ankleRightPos.x, 0.0f, footRightPos.z - ankleRightPos.z).normalized;
+            Quaternion soleRightRot = Quaternion.LookRotation(soleRightDir);
+
+            Vector3 soleLeftDir = new Vector3(footLeftPos.x - ankleLeftPos.x, 0.0f, footLeftPos.z - ankleLeftPos.z).normalized;
+            Quaternion soleLeftRot = Quaternion.LookRotation(soleLeftDir);
+
+            sideRightSoleVisualization.transform.position = ankleRightPos;
+            sideRightSoleVisualization.transform.rotation = soleRightRot;
+            sideLeftSoleVisualization.transform.position = ankleLeftPos;
+            sideLeftSoleVisualization.transform.rotation = soleLeftRot;
+
+
+            heartRateVisualization.transform.position = midPos;
+            emgDataVisualization.transform.position = elbowRightPos;
+            rightSoleVisualization.transform.position = ankleRightPos;
+            leftSoleVisualization.transform.position = ankleLeftPos;
+
+
+            //change later to side
+            bodyTemperatureVisualization.transform.position = new Vector3(midPos.x, midPos.y, midPos.z + 0.5f);
+
+            m_backInclination.transform.position = spineShoulderPos;
+            m_velocityVisualization.transform.position = new Vector3(headPos.x, headPos.y, headPos.z + 0.2f);
         }
-        */
+        
     }
 
     private void OnEnable()
     {
         baseClient.RegisterTopicHandler("M2MQTT/WebApp", HandleWebAppMqttMessage);
         baseClient.RegisterTopicHandler("M2MQTT/ChairData", HandleChairDataMqttMessage);
+        baseClient.RegisterTopicHandler("M2MQTT/RoadData", HandleRoadDataMqttMessage);
+        baseClient.RegisterTopicHandler("M2MQTT/SoleData", HandleSoleDataMqttMessage);
         baseClient.RegisterTopicHandler("M2MQTT/SensorData", HandleSensorDataMqttMessage);
         baseClient.RegisterTopicHandler("M2MQTT/Visualization", HandleVisualizationMqttMessage);
     }
@@ -118,6 +252,8 @@ public class AppManager : MonoBehaviour
     {
         baseClient.UnregisterTopicHandler("M2MQTT/WebApp", HandleWebAppMqttMessage);
         baseClient.UnregisterTopicHandler("M2MQTT/ChairData", HandleChairDataMqttMessage);
+        baseClient.UnregisterTopicHandler("M2MQTT/RoadData", HandleRoadDataMqttMessage);
+        baseClient.UnregisterTopicHandler("M2MQTT/SoleData", HandleSoleDataMqttMessage);
         baseClient.UnregisterTopicHandler("M2MQTT/SensorData", HandleSensorDataMqttMessage);
         baseClient.UnregisterTopicHandler("M2MQTT/Visualization", HandleVisualizationMqttMessage);
     }
@@ -200,7 +336,7 @@ public class AppManager : MonoBehaviour
                     StopChairPositionCalibration();
                 }
             }
-            else if (flagName.Equals("HeartSound"))
+            else if (flagName.Equals("HeartRateVisualization"))
             {
                 heartRateVisualization.GetComponent<HeartRateVisualization>().m_Play = flag;
             }
@@ -351,6 +487,109 @@ public class AppManager : MonoBehaviour
                 m_dataVisualizationManager.RegisterDataName(sensorName);
                 m_dataVisualizationManager.SetVisualizationPosition(sensorName, sensorPosition);
             }
+        }
+    }
+
+    private void HandleRoadDataMqttMessage(string topic, string message)
+    {
+        Debug.Log(message);
+
+        JSONNode messageNode = JSON.Parse(message);
+        JSONNode roadNode = messageNode["road"];
+        if (roadNode != null && roadNode.IsArray)
+        {
+            JSONArray roadNodeArray = roadNode.AsArray;
+            JSONNode roadData = roadNodeArray[0];
+
+            JSONArray positionArray = roadData["position"].AsArray;
+            Vector3 roadPosition = new Vector3(positionArray[0].AsFloat,
+                                               positionArray[1].AsFloat,
+                                               positionArray[2].AsFloat);
+
+            JSONArray rotationArray = roadData["rotation"].AsArray;
+            Vector3 roadRotation = new Vector3(rotationArray[0].AsFloat,
+                                               rotationArray[1].AsFloat,
+                                               rotationArray[2].AsFloat);
+
+            JSONArray scaleArray = roadData["scale"].AsArray;
+            Vector3 roadScale = new Vector3(scaleArray[0].AsFloat,
+                                            scaleArray[1].AsFloat,
+                                            scaleArray[2].AsFloat);
+
+            JSONArray heightArray = roadData["height"].AsArray;
+            Vector3 heightPosition = new Vector3(heightArray[0].AsFloat,
+                                                 heightArray[1].AsFloat,
+                                                 heightArray[2].AsFloat);
+
+            JSONArray headOffsetArray = roadData["headoffset"].AsArray;
+            Vector3 headOffset = new Vector3(headOffsetArray[0].AsFloat,
+                                                 headOffsetArray[1].AsFloat,
+                                                 headOffsetArray[2].AsFloat);
+
+            JSONArray alphaValue = roadData["alpha"].AsArray;
+       
+
+            //Debug.Log("alpha value" + alphaValue);
+            //Debug.Log("array = " + positionArray);
+            //Debug.Log("x = " + positionArray[0]);
+            //Debug.Log("y = " + positionArray[1]);
+            //Debug.Log("z = " + positionArray[2]);
+            m_roadSpriteToggle.SetPosition(roadPosition);
+            m_roadSpriteToggle.SetRotation(roadRotation);
+            m_roadSpriteToggle.SetScale(roadScale);
+            m_roadSpriteToggle.SetHeight(heightPosition);
+            m_roadSpriteToggle.SetAlpha(alphaValue[0].AsFloat);
+            m_roadSpriteToggle.SetHeadOffset(headOffset);
+        }
+    }
+
+    private void HandleSoleDataMqttMessage(string topic, string message)
+    {
+        Debug.Log(message);
+
+        JSONNode messageNode = JSON.Parse(message);
+        JSONNode soleNode = messageNode["sole"];
+        if (soleNode != null && soleNode.IsArray)
+        {
+            JSONArray soleNodeArray = soleNode.AsArray;
+            JSONNode soleData = soleNodeArray[0];
+
+            JSONArray positionArrayRight = soleData["positionRight"].AsArray;
+            Vector3 solePositionRight = new Vector3(positionArrayRight[0].AsFloat,
+                                               positionArrayRight[1].AsFloat,
+                                               positionArrayRight[2].AsFloat);
+
+            JSONArray rotationArrayRight = soleData["rotationRight"].AsArray;
+            Vector3 soleRotationRight = new Vector3(rotationArrayRight[0].AsFloat,
+                                               rotationArrayRight[1].AsFloat,
+                                               rotationArrayRight[2].AsFloat);
+
+            JSONArray scaleArrayRight = soleData["scaleRight"].AsArray;
+            Vector3 soleScaleRight = new Vector3(scaleArrayRight[0].AsFloat,
+                                            scaleArrayRight[1].AsFloat,
+                                            scaleArrayRight[2].AsFloat);
+
+            JSONArray positionArrayLeft = soleData["positionLeft"].AsArray;
+            Vector3 solePositionLeft = new Vector3(positionArrayLeft[0].AsFloat,
+                                               positionArrayLeft[1].AsFloat,
+                                               positionArrayLeft[2].AsFloat);
+
+            JSONArray rotationArrayLeft = soleData["rotationLeft"].AsArray;
+            Vector3 soleRotationLeft = new Vector3(rotationArrayLeft[0].AsFloat,
+                                               rotationArrayLeft[1].AsFloat,
+                                               rotationArrayLeft[2].AsFloat);
+
+            JSONArray scaleArrayLeft = soleData["scaleLeft"].AsArray;
+            Vector3 soleScaleLeft = new Vector3(scaleArrayLeft[0].AsFloat,
+                                            scaleArrayLeft[1].AsFloat,
+                                            scaleArrayLeft[2].AsFloat);
+
+            m_rightSoleTransform.SetPosition(solePositionRight);
+            m_rightSoleTransform.SetRotation(soleRotationRight);
+            m_rightSoleTransform.SetScale(soleScaleRight);
+            m_leftSoleTransform.SetPosition(solePositionLeft);
+            m_leftSoleTransform.SetRotation(soleRotationLeft);
+            m_leftSoleTransform.SetScale(soleScaleLeft);
         }
     }
 

@@ -16024,13 +16024,13 @@
     },
     "Assembly-CSharp/1.0.0": {
       "type": "project",
-      "path": "../GeneratedProjects/UWP/Assembly-CSharp/project.json",
-      "msbuildProject": "../GeneratedProjects/UWP/Assembly-CSharp/Assembly-CSharp.csproj"
+      "path": "../../../../Body Visualization System/BodyVisualizationHololens/Build/GeneratedProjects/UWP/Assembly-CSharp/project.json",
+      "msbuildProject": "../../../../Body Visualization System/BodyVisualizationHololens/Build/GeneratedProjects/UWP/Assembly-CSharp/Assembly-CSharp.csproj"
     },
     "VuforiaScripts/1.0.0": {
       "type": "project",
-      "path": "../GeneratedProjects/UWP/VuforiaScripts/project.json",
-      "msbuildProject": "../GeneratedProjects/UWP/VuforiaScripts/VuforiaScripts.csproj"
+      "path": "../../../../Body Visualization System/BodyVisualizationHololens/Build/GeneratedProjects/UWP/VuforiaScripts/project.json",
+      "msbuildProject": "../../../../Body Visualization System/BodyVisualizationHololens/Build/GeneratedProjects/UWP/VuforiaScripts/VuforiaScripts.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -16047,12 +16047,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj",
+      "projectUniqueName": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj",
       "projectName": "BodyVisualizationHololens",
-      "projectPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj",
-      "projectJsonPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\project.json",
+      "projectPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\BodyVisualizationHololens.csproj",
+      "projectJsonPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\project.json",
       "packagesPath": "C:\\Users\\Michele\\.nuget\\packages\\",
-      "outputPath": "D:\\Sid\\Body Visualization System\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\obj\\",
+      "outputPath": "D:\\Sid\\Walking Training\\BodyVisualizationHololens\\Build\\BodyVisualizationHololens\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Michele\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -22,7 +22,7 @@ MonoBehaviour:
     cameraDirection: 0
     mirrorVideoBackground: 0
     version: 8.0.10
-    eulaAcceptedVersions: '{"Values":["7.2","8.0","8.1"]}'
+    eulaAcceptedVersions: '{"Values":["7.2","8.0","8.1","8.3"]}'
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingLayer: 31
@@ -63,7 +63,7 @@ MonoBehaviour:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: QuickCam Pro for Notebooks
     flipHorizontally: 0
     turnOffWebCam: 0
     renderTextureLayer: 30

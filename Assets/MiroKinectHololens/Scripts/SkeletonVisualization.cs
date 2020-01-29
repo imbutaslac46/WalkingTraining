@@ -18,7 +18,6 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
     public float jointDiameter = 0.06f;
     public float boneDiameter = 0.04f;
 
-
     ///used to draw lines between joints
     private Dictionary<Kinect.JointType, Kinect.JointType> m_jointParents = new Dictionary<Kinect.JointType, Kinect.JointType>()
     {
@@ -46,9 +45,9 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
         { Kinect.JointType.HipRight, Kinect.JointType.SpineBase },
         { Kinect.JointType.KneeRight, Kinect.JointType.HipRight },
         { Kinect.JointType.AnkleRight, Kinect.JointType.KneeRight },
-        { Kinect.JointType.FootRight, Kinect.JointType.AnkleRight },
+        { Kinect.JointType.FootRight, Kinect.JointType.AnkleRight }
 
-        { Kinect.JointType.SpineShoulder, Kinect.JointType.SpineMid }
+        //{ Kinect.JointType.SpineShoulder, Kinect.JointType.SpineMid }
         
     };
 
@@ -86,6 +85,7 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
 
     private void Start()
     {
+        
     }
 
 
@@ -106,6 +106,9 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
         //update transform of every joint and bones
         foreach (Kinect.JointType joint in jointPositions.Keys)
         {
+            if (!m_jointParents.ContainsKey(joint))
+                continue;
+
             Kinect.JointType parentJoint = m_jointParents[joint];
             if( parentJoint != joint )
             {
@@ -143,14 +146,13 @@ public class SkeletonVisualization : MonoBehaviour, IHideable
                 GameObject boneObj = m_boneGameObjects[boneName];
                 boneObj.GetComponent<Renderer>().sharedMaterial = boneMaterialYellow;
             }
-            else if (m_boneGameObjects.ContainsKey(boneName) && theta > 90 && theta <= 120)
+            else if (m_boneGameObjects.ContainsKey(boneName) && theta > 90 && theta <= 180)
             {
                 GameObject boneObj = m_boneGameObjects[boneName];
                 boneObj.GetComponent<Renderer>().sharedMaterial = boneMaterialGreen;
             }
         }
     }
-
 
     public Vector3 GetJointWorldPosition(Kinect.JointType jointType)
     {
